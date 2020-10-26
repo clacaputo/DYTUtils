@@ -162,7 +162,7 @@ public:
   unsigned int  treeEventId;
   unsigned int  treeLumiId;
   unsigned int  treeRunId;
-  int treeTunePMuonBestTrackType, treeMuonCharge, treeQ_gen;
+  int treeTunePMuonBestTrackType, treeQ_gen;
   int treeNumberOfShowers;
   unsigned int treeMuonSubDetID_1,treeMuonSubDetID_2,treeMuonSubDetID_3,treeMuonSubDetID_4;
   bool treeMuonSubDetShowering_1,treeMuonSubDetShowering_2,treeMuonSubDetShowering_3,treeMuonSubDetShowering_4;
@@ -172,10 +172,17 @@ public:
   unsigned int treeMuonSelectors;
   bool treeTrackerHighPtIDNoVtx;
   bool treeHighPtMuonIDNoVtx;
-  LorentzVector treeMuon, treeMuonTuneP, treeMuonDyT, treeMuonPicky;
-  float  treeMuonDyT_ptError, treeMuonPicky_ptError;
-  float  treeMuonDyT_qoverp, treeMuonPicky_qoverp;
-  float  treeMuonDyT_qoverpError, treeMuonPicky_qoverpError;
+  //LorentzVector treeMuon, treeMuonTuneP, treeMuonDyT, treeMuonPicky;
+
+  float treeMuon_P, treeMuon_Pt, treeMuon_Eta, treeMuon_Phi;
+  float treeMuonTuneP_P, treeMuonTuneP_Pt, treeMuonTuneP_Eta, treeMuonTuneP_Phi;
+  float treeMuonDYT_P, treeMuonDYT_Pt, treeMuonDYT_Eta, treeMuonDYT_Phi;
+  float treeMuonPicky_P, treeMuonPicky_Pt, treeMuonPicky_Eta, treeMuonPicky_Phi;
+  int treeMuon_Charge, treeMuonDYT_Charge, treeMuonPicky_Charge, treeMuonTuneP_Charge;
+
+  float  treeMuonDYT_ptError, treeMuonPicky_ptError;
+  float  treeMuonDYT_qoverp, treeMuonPicky_qoverp;
+  float  treeMuonDYT_qoverpError, treeMuonPicky_qoverpError;
   //utils::MuonTrack muonDYT;
 };
 
@@ -215,11 +222,33 @@ void DYTNtuplizer::beginJob()
   ntuple->Branch("p_gen"   , &treeP_gen  , "p_gen/f"  );
   ntuple->Branch("pt_gen"  , &treePt_gen , "pt_gen/f"  );
   ntuple->Branch("q_gen"  , &treeQ_gen , "q_gen/i"  );
-  ntuple->Branch("muonCharge"  , &treeMuonCharge , "muonCharge/i"  );
-  ntuple->Branch("muonCandidate",     &treeMuon );
-  ntuple->Branch("muonCandidateTuneP",     &treeMuonTuneP );
-  ntuple->Branch("muonCandidateDyT",     &treeMuonDyT );
-  ntuple->Branch("muonCandidatePicky",     &treeMuonPicky );
+
+  ntuple->Branch("muonCandidate_P",       &treeMuon_P , "muonCandidate_P/f");
+  ntuple->Branch("muonCandidate_Pt",      &treeMuon_Pt , "muonCandidate_Pt/f");
+  ntuple->Branch("muonCandidate_Eta",     &treeMuon_Eta , "muonCandidate_Eta/f");
+  ntuple->Branch("muonCandidate_Phi",     &treeMuon_Phi , "muonCandidate_Phi/f");
+  ntuple->Branch("muonCandidate_Charge",     &treeMuon_Charge , "muonCandidate_Charge/i");
+
+  ntuple->Branch("muonCandidateTuneP_P",     &treeMuonTuneP_P , "muonCandidateTuneP_P/f");
+  ntuple->Branch("muonCandidateTuneP_Pt",     &treeMuonTuneP_Pt , "muonCandidateTuneP_Pt/f");
+  ntuple->Branch("muonCandidateTuneP_Eta",     &treeMuonTuneP_Eta , "muonCandidateTuneP_Eta/f");
+  ntuple->Branch("muonCandidateTuneP_Phi",     &treeMuonTuneP_Phi , "muonCandidateTuneP_Phi/f");
+  ntuple->Branch("muonCandidateTuneP_Charge",     &treeMuonTuneP_Charge , "muonCandidateTuneP_Charge/i");
+
+  ntuple->Branch("muonCandidateDYT_P",     &treeMuonDYT_P, "muonCandidateDYT_P/f" );
+  ntuple->Branch("muonCandidateDYT_Pt",     &treeMuonDYT_Pt, "muonCandidateDYT_Pt/f" );
+  ntuple->Branch("muonCandidateDYT_Eta",     &treeMuonDYT_Eta, "muonCandidateDYT_Eta/f" );
+  ntuple->Branch("muonCandidateDYT_Phi",     &treeMuonDYT_Phi, "muonCandidateDYT_Phi/f" );
+  ntuple->Branch("muonCandidateDYT_Charge",     &treeMuonDYT_Charge, "muonCandidateDYT_Charge/i" );
+
+  ntuple->Branch("muonCandidatePicky_P",     &treeMuonPicky_P, "muonCandidatePicky_P/f" );
+  ntuple->Branch("muonCandidatePicky_Pt",     &treeMuonPicky_Pt, "muonCandidatePicky_Pt/f" );
+  ntuple->Branch("muonCandidatePicky_Eta",     &treeMuonPicky_Eta, "muonCandidatePicky_Eta/f" );
+  ntuple->Branch("muonCandidatePicky_Phi",     &treeMuonPicky_Phi, "muonCandidatePicky_Phi/f" );
+  ntuple->Branch("muonCandidatePicky_Charge",     &treeMuonPicky_Charge, "muonCandidatePicky_Charge/i" );
+
+
+
   //ntuple->Branch("muonTrackDYT", &muonDYT);
   ntuple->Branch("muonSubDetID_1", &treeMuonSubDetID_1, "muonSubDetID_1/i" );
   ntuple->Branch("DYTEst_1", &treeDYTEst_1 , "DYTEst_1/D");
@@ -237,12 +266,12 @@ void DYTNtuplizer::beginJob()
   ntuple->Branch("DYTEst_4", &treeDYTEst_4 , "DYTEst_4/D");
   ntuple->Branch("muonSubDetShowering_4", &treeMuonSubDetShowering_4, "muonSubDetShowering_4/i" );
 
-  ntuple->Branch("muonCandidateDyT_ptError"   , &treeMuonDyT_ptError  , "muonCandidateDyT_ptError/f"  );
-  ntuple->Branch("muonCandidateDyt_qoverp"   , &treeMuonDyT_qoverp  , "muonCandidateDyT_qoverp/f"  );
-  ntuple->Branch("muonCandidateDyT_qoverpError"   , &treeMuonDyT_qoverpError  , "muonCandidateDyT_qoverpError/f"  );
+  ntuple->Branch("muonCandidateDYT_ptError"   , &treeMuonDYT_ptError  , "muonCandidateDYT_ptError/f"  );
+  ntuple->Branch("muonCandidateDYT_qoverp"   , &treeMuonDYT_qoverp  , "muonCandidateDYT_qoverp/f"  );
+  ntuple->Branch("muonCandidateDYT_qoverpError"   , &treeMuonDYT_qoverpError  , "muonCandidateDYT_qoverpError/f"  );
   ntuple->Branch("muonCandidatePicky_ptError"   , &treeMuonPicky_ptError  , "muonCandidatePicky_ptError/f"  );
-  ntuple->Branch("muonCandidateDyT_qoverp"   , &treeMuonPicky_qoverp  , "muonCandidatePicky_qoverp/f"  );
-  ntuple->Branch("muonCandidateDyT_qoverpError"   , &treeMuonPicky_qoverpError  , "muonCandidatePicky_qoverpError/f"  );
+  ntuple->Branch("muonCandidatePicky_qoverp"   , &treeMuonPicky_qoverp  , "muonCandidatePicky_qoverp/f"  );
+  ntuple->Branch("muonCandidatePicky_qoverpError"   , &treeMuonPicky_qoverpError  , "muonCandidatePicky_qoverpError/f"  );
 
 }
 
@@ -252,8 +281,6 @@ void DYTNtuplizer::analyze(const edm::Event& iEvent, const edm::EventSetup& iSet
     using namespace std;
     using namespace edm;
     using namespace reco;
-
-    LorentzVector null_p4(0., 0., 0., 0.);
 
     std::map< int, bool* > detectorShoweringMap{ {0,&treeMuonSubDetShowering_1},
                                                  {1,&treeMuonSubDetShowering_2},
@@ -356,40 +383,54 @@ void DYTNtuplizer::analyze(const edm::Event& iEvent, const edm::EventSetup& iSet
         } else {
           continue;
         }
-        std::cout<<"\n";
+        // std::cout<<"\n";
 
         treeTunePMuonBestTrackType = -1;
-        treeMuon      = null_p4;
-        treeMuonTuneP = null_p4;
-        treeMuonDyT   = null_p4;
-        treeMuonPicky = null_p4;
-        treeMuonCharge = 0;
         treeMuonSelectors = -1;
 
         reco::TrackRef dyt        = muon.dytTrack();
         reco::TrackRef picky      = muon.pickyTrack();
         reco::TrackRef tunePTrack = muon.tunePMuonBestTrack();
 
-        treeMuonCharge = muon.charge();
-	treeTrackerHighPtIDNoVtx = isTrackerHighPtMuonNoVtx(muon);
-	treeHighPtMuonIDNoVtx    = isHighPtMuonNoVtx(muon);
+        treeTrackerHighPtIDNoVtx = isTrackerHighPtMuonNoVtx(muon);
+        treeHighPtMuonIDNoVtx    = isHighPtMuonNoVtx(muon);
         treeTunePMuonBestTrackType = static_cast<int>(muon.tunePMuonBestTrackType());
         treeMuonSelectors = muon.selectors();
-        treeMuon      = LorentzVector(muon.pt(), muon.eta(), muon.phi(), muon.p());
+        treeMuon_P      = muon.p();
+        treeMuon_Pt     = muon.pt();
+        treeMuon_Eta    = muon.eta();
+        treeMuon_Phi    = muon.phi();
+        treeMuon_Charge = muon.charge();
+
+
         if ( dyt.isNonnull() ) {
-           treeMuonDyT   = LorentzVector(dyt->pt(), dyt->eta(), dyt->phi(), dyt->p());
-           treeMuonDyT_ptError = dyt->ptError();
-           treeMuonDyT_qoverp  = dyt->qoverp();
-           treeMuonDyT_qoverpError = dyt->qoverpError();
+           treeMuonDYT_P      = dyt->p();
+           treeMuonDYT_Pt     = dyt->pt();
+           treeMuonDYT_Eta    = dyt->eta();
+           treeMuonDYT_Phi    = dyt->phi();
+           treeMuonDYT_Charge = dyt->charge();
+
+           treeMuonDYT_ptError = dyt->ptError();
+           treeMuonDYT_qoverp  = dyt->qoverp();
+           treeMuonDYT_qoverpError = dyt->qoverpError();
         }//muonDYT.setMuonTrackValues(dyt);
         if ( picky.isNonnull() ) {
-           treeMuonPicky   = LorentzVector(picky->pt(), picky->eta(), picky->phi(), picky->p());
-
+           treeMuonPicky_P      = picky->p();
+           treeMuonPicky_Pt     = picky->pt();
+           treeMuonPicky_Eta    = picky->eta();
+           treeMuonPicky_Phi    = picky->phi();
+           treeMuonPicky_Charge = picky->charge();
            treeMuonPicky_ptError = picky->ptError();
            treeMuonPicky_qoverp  = picky->qoverp();
            treeMuonPicky_qoverpError = picky->qoverpError();
         }
-        treeMuonTuneP = LorentzVector(tunePTrack->pt(), tunePTrack->eta(), tunePTrack->phi(), tunePTrack->p());
+        treeMuonTuneP_P      = tunePTrack->p();
+        treeMuonTuneP_Pt     = tunePTrack->pt();
+        treeMuonTuneP_Eta    = tunePTrack->eta();
+        treeMuonTuneP_Phi    = tunePTrack->phi();
+        treeMuonTuneP_Charge = tunePTrack->charge();
+
+
         ntuple->Fill();
 
       //} catch (...) {continue;}
