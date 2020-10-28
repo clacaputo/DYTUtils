@@ -216,62 +216,62 @@ void DYTNtuplizer::beginJob()
   ntuple->Branch("numberOfShowers"  , &treeNumberOfShowers   , "numberOfShowers/i"  );
 
   ntuple->Branch("tunePMuonBestTrackType"  , &treeTunePMuonBestTrackType   , "tunePMuonBestTrackType/i" );
-  ntuple->Branch("muonSelectors"  , &treeMuonSelectors   , "muonSelectors/i" );
-  ntuple->Branch("trackerHighPtIDNoVtx"   , &treeTrackerHighPtIDNoVtx  , "trackerHighPtIDNoVtx/b"  );
-  ntuple->Branch("highPtMuonIDNoVtx"   , &treeHighPtMuonIDNoVtx  , "highPtMuonIDNoVtx/f"  );
-  ntuple->Branch("p_gen"   , &treeP_gen  , "p_gen/f"  );
-  ntuple->Branch("pt_gen"  , &treePt_gen , "pt_gen/f"  );
-  ntuple->Branch("q_gen"  , &treeQ_gen , "q_gen/i"  );
+  ntuple->Branch("muonSelectors"  , &treeMuonSelectors   , "muonSelectors/b" );
+  ntuple->Branch("trackerHighPtIDNoVtx"   , &treeTrackerHighPtIDNoVtx  , "trackerHighPtIDNoVtx/O"  );
+  ntuple->Branch("highPtMuonIDNoVtx"   , &treeHighPtMuonIDNoVtx  , "highPtMuonIDNoVtx/O"  );
+  ntuple->Branch("p_gen"   , &treeP_gen  , "p_gen/F"  );
+  ntuple->Branch("pt_gen"  , &treePt_gen , "pt_gen/F"  );
+  ntuple->Branch("q_gen"  , &treeQ_gen , "q_gen/I"  );
 
-  ntuple->Branch("muonCandidate_P",       &treeMuon_P , "muonCandidate_P/f");
-  ntuple->Branch("muonCandidate_Pt",      &treeMuon_Pt , "muonCandidate_Pt/f");
-  ntuple->Branch("muonCandidate_Eta",     &treeMuon_Eta , "muonCandidate_Eta/f");
-  ntuple->Branch("muonCandidate_Phi",     &treeMuon_Phi , "muonCandidate_Phi/f");
-  ntuple->Branch("muonCandidate_Charge",     &treeMuon_Charge , "muonCandidate_Charge/i");
+  ntuple->Branch("muonCandidate_P",       &treeMuon_P , "muonCandidate_P/F");
+  ntuple->Branch("muonCandidate_Pt",      &treeMuon_Pt , "muonCandidate_Pt/F");
+  ntuple->Branch("muonCandidate_Eta",     &treeMuon_Eta , "muonCandidate_Eta/F");
+  ntuple->Branch("muonCandidate_Phi",     &treeMuon_Phi , "muonCandidate_Phi/F");
+  ntuple->Branch("muonCandidate_Charge",     &treeMuon_Charge , "muonCandidate_Charge/I");
 
-  ntuple->Branch("muonCandidateTuneP_P",     &treeMuonTuneP_P , "muonCandidateTuneP_P/f");
-  ntuple->Branch("muonCandidateTuneP_Pt",     &treeMuonTuneP_Pt , "muonCandidateTuneP_Pt/f");
-  ntuple->Branch("muonCandidateTuneP_Eta",     &treeMuonTuneP_Eta , "muonCandidateTuneP_Eta/f");
-  ntuple->Branch("muonCandidateTuneP_Phi",     &treeMuonTuneP_Phi , "muonCandidateTuneP_Phi/f");
-  ntuple->Branch("muonCandidateTuneP_Charge",     &treeMuonTuneP_Charge , "muonCandidateTuneP_Charge/i");
+  ntuple->Branch("muonCandidateTuneP_P",     &treeMuonTuneP_P , "muonCandidateTuneP_P/F");
+  ntuple->Branch("muonCandidateTuneP_Pt",     &treeMuonTuneP_Pt , "muonCandidateTuneP_Pt/F");
+  ntuple->Branch("muonCandidateTuneP_Eta",     &treeMuonTuneP_Eta , "muonCandidateTuneP_Eta/F");
+  ntuple->Branch("muonCandidateTuneP_Phi",     &treeMuonTuneP_Phi , "muonCandidateTuneP_Phi/F");
+  ntuple->Branch("muonCandidateTuneP_Charge",     &treeMuonTuneP_Charge , "muonCandidateTuneP_Charge/I");
 
-  ntuple->Branch("muonCandidateDYT_P",     &treeMuonDYT_P, "muonCandidateDYT_P/f" );
-  ntuple->Branch("muonCandidateDYT_Pt",     &treeMuonDYT_Pt, "muonCandidateDYT_Pt/f" );
-  ntuple->Branch("muonCandidateDYT_Eta",     &treeMuonDYT_Eta, "muonCandidateDYT_Eta/f" );
-  ntuple->Branch("muonCandidateDYT_Phi",     &treeMuonDYT_Phi, "muonCandidateDYT_Phi/f" );
-  ntuple->Branch("muonCandidateDYT_Charge",     &treeMuonDYT_Charge, "muonCandidateDYT_Charge/i" );
+  ntuple->Branch("muonCandidateDYT_P",     &treeMuonDYT_P, "muonCandidateDYT_P/F" );
+  ntuple->Branch("muonCandidateDYT_Pt",     &treeMuonDYT_Pt, "muonCandidateDYT_Pt/F" );
+  ntuple->Branch("muonCandidateDYT_Eta",     &treeMuonDYT_Eta, "muonCandidateDYT_Eta/F" );
+  ntuple->Branch("muonCandidateDYT_Phi",     &treeMuonDYT_Phi, "muonCandidateDYT_Phi/F" );
+  ntuple->Branch("muonCandidateDYT_Charge",     &treeMuonDYT_Charge, "muonCandidateDYT_Charge/I" );
 
-  ntuple->Branch("muonCandidatePicky_P",     &treeMuonPicky_P, "muonCandidatePicky_P/f" );
-  ntuple->Branch("muonCandidatePicky_Pt",     &treeMuonPicky_Pt, "muonCandidatePicky_Pt/f" );
-  ntuple->Branch("muonCandidatePicky_Eta",     &treeMuonPicky_Eta, "muonCandidatePicky_Eta/f" );
-  ntuple->Branch("muonCandidatePicky_Phi",     &treeMuonPicky_Phi, "muonCandidatePicky_Phi/f" );
-  ntuple->Branch("muonCandidatePicky_Charge",     &treeMuonPicky_Charge, "muonCandidatePicky_Charge/i" );
+  ntuple->Branch("muonCandidatePicky_P",     &treeMuonPicky_P, "muonCandidatePicky_P/F" );
+  ntuple->Branch("muonCandidatePicky_Pt",     &treeMuonPicky_Pt, "muonCandidatePicky_Pt/F" );
+  ntuple->Branch("muonCandidatePicky_Eta",     &treeMuonPicky_Eta, "muonCandidatePicky_Eta/F" );
+  ntuple->Branch("muonCandidatePicky_Phi",     &treeMuonPicky_Phi, "muonCandidatePicky_Phi/F" );
+  ntuple->Branch("muonCandidatePicky_Charge",     &treeMuonPicky_Charge, "muonCandidatePicky_Charge/I" );
 
 
 
-  //ntuple->Branch("muonTrackDYT", &muonDYT);
+//ntuple->Branch("muonTrackDYT", &muonDYT);
   ntuple->Branch("muonSubDetID_1", &treeMuonSubDetID_1, "muonSubDetID_1/i" );
   ntuple->Branch("DYTEst_1", &treeDYTEst_1 , "DYTEst_1/D");
-  ntuple->Branch("muonSubDetShowering_1", &treeMuonSubDetShowering_1, "muonSubDetShowering_1/b" );
+  ntuple->Branch("muonSubDetShowering_1", &treeMuonSubDetShowering_1, "muonSubDetShowering_1/O" );
 
   ntuple->Branch("muonSubDetID_2", &treeMuonSubDetID_2, "muonSubDetID_2/i" );
   ntuple->Branch("DYTEst_2", &treeDYTEst_2 , "DYTEst_2/D");
-  ntuple->Branch("muonSubDetShowering_2", &treeMuonSubDetShowering_2, "muonSubDetShowering_2/b" );
+  ntuple->Branch("muonSubDetShowering_2", &treeMuonSubDetShowering_2, "muonSubDetShowering_2/O" );
 
   ntuple->Branch("muonSubDetID_3", &treeMuonSubDetID_3, "muonSubDetID_3/i" );
   ntuple->Branch("DYTEst_3", &treeDYTEst_3 , "DYTEst_3/D");
-  ntuple->Branch("muonSubDetShowering_3", &treeMuonSubDetShowering_3, "muonSubDetShowering_3/b" );
+  ntuple->Branch("muonSubDetShowering_3", &treeMuonSubDetShowering_3, "muonSubDetShowering_3/O" );
 
   ntuple->Branch("muonSubDetID_4", &treeMuonSubDetID_4, "muonSubDetID_4/i" );
   ntuple->Branch("DYTEst_4", &treeDYTEst_4 , "DYTEst_4/D");
-  ntuple->Branch("muonSubDetShowering_4", &treeMuonSubDetShowering_4, "muonSubDetShowering_4/i" );
+  ntuple->Branch("muonSubDetShowering_4", &treeMuonSubDetShowering_4, "muonSubDetShowering_4/O" );
 
-  ntuple->Branch("muonCandidateDYT_ptError"   , &treeMuonDYT_ptError  , "muonCandidateDYT_ptError/f"  );
-  ntuple->Branch("muonCandidateDYT_qoverp"   , &treeMuonDYT_qoverp  , "muonCandidateDYT_qoverp/f"  );
-  ntuple->Branch("muonCandidateDYT_qoverpError"   , &treeMuonDYT_qoverpError  , "muonCandidateDYT_qoverpError/f"  );
-  ntuple->Branch("muonCandidatePicky_ptError"   , &treeMuonPicky_ptError  , "muonCandidatePicky_ptError/f"  );
-  ntuple->Branch("muonCandidatePicky_qoverp"   , &treeMuonPicky_qoverp  , "muonCandidatePicky_qoverp/f"  );
-  ntuple->Branch("muonCandidatePicky_qoverpError"   , &treeMuonPicky_qoverpError  , "muonCandidatePicky_qoverpError/f"  );
+  ntuple->Branch("muonCandidateDYT_ptError"   , &treeMuonDYT_ptError  , "muonCandidateDYT_ptError/F"  );
+  ntuple->Branch("muonCandidateDYT_qoverp"   , &treeMuonDYT_qoverp  , "muonCandidateDYT_qoverp/F"  );
+  ntuple->Branch("muonCandidateDYT_qoverpError"   , &treeMuonDYT_qoverpError  , "muonCandidateDYT_qoverpError/F"  );
+  ntuple->Branch("muonCandidatePicky_ptError"   , &treeMuonPicky_ptError  , "muonCandidatePicky_ptError/F"  );
+  ntuple->Branch("muonCandidatePicky_qoverp"   , &treeMuonPicky_qoverp  , "muonCandidatePicky_qoverp/F"  );
+  ntuple->Branch("muonCandidatePicky_qoverpError"   , &treeMuonPicky_qoverpError  , "muonCandidatePicky_qoverpError/F"  );
 
 }
 
