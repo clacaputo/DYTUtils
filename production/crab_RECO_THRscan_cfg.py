@@ -13,7 +13,7 @@ config.JobType.allowUndistributedCMSSW = True
 config.Data.splitting = "FileBased"
 config.Data.unitsPerJob = 1
 
-config.Data.outLFNDirBase = '/store/user/%s/DyT_ThresholdStudies/ThrScan' % (getUsernameFromCRIC())
+config.Data.outLFNDirBase = '/store/user/%s/DyT_ThresholdStudies/ThrScan_FIX_Fine' % (getUsernameFromCRIC())
 #config.Data.publication = True
 
 config.Site.storageSite = 'T2_BE_UCL'
@@ -33,11 +33,11 @@ if __name__ == '__main__':
                 'SingleMuonP2000_RECO_RECOSIM_EI_PAT': '/SingleMuonP2000_pythia8/ccaputo-DIGI_CMSSW_11_1_3_phase1_2018_realistic_NoPU-04b931a98bc758ab97a385c878d13b9b/USER',
                 'SingleMuonP3000_RECO_RECOSIM_EI_PAT':'/SingleMuonP3000_pythia8/ccaputo-DIGI_CMSSW_11_1_3_phase1_2018_realistic_NoPU-04b931a98bc758ab97a385c878d13b9b/USER'
                 }
-    thr_values = range(11,50,2)
+    thr_values = range(10,30,2)
     #           'SingleMuonPt3000_DIGI_l1_DIG2RAW_HLT': '/SingleMuonPt3000_pythia8_GEN-SIM/ccaputo-CMSSW_10_6_X_phase1_2018_realistic_April2019-fdce3adde275acc548e9b0b9ce6ab138/USER'}
     # We want to put all the CRAB project directories from the tasks we submit here into one common directory.
     # That's why we need to set this parameter (here or above in the configuration file, it does not matter, we will not overwrite it).
-    config.General.workArea = 'crab_projects_DyT_RECO_ThrScan_fine'
+    config.General.workArea = 'crab_projects_DyT_RECO_ThrScan_FIX_Fine'
 
     def submit(config):
         try:

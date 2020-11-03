@@ -209,6 +209,7 @@ if not obj.newDyT:
     process.tevMuons.RefitterParameters.DYTuseThrsParametrization.setValue(obj.newDyT)
     process.tevMuons.RefitterParameters.DYTthrs.setValue(newDYTthrs)
     process.glbTrackQual.RefitterParameters.DYTuseThrsParametrization.setValue(obj.newDyT)
+    process.glbTrackQual.RefitterParameters.DYTthrs.setValue(newDYTthrs)
 if obj.runAPEs:
     process.tevMuons.RefitterParameters.DYTuseAPE.setValue(obj.runAPEs)
     process.glbTrackQual.RefitterParameters.DYTuseAPE.setValue(obj.runAPEs)
