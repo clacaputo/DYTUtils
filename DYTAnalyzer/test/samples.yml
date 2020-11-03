@@ -1,0 +1,112 @@
+SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr5:
+  thr: 5
+  psim: 500
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr5/201029_174022/*/*.root"
+SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr15:
+  thr: 15
+  psim: 500
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr15/201029_174104/*/*.root"
+SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr25:
+  thr: 25
+  psim: 500
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr25/201029_174143/*/*.root"
+SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr35:
+  thr: 35
+  psim: 500
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr35/201029_174221/*/*.root"
+SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr45:
+  thr: 45
+  psim: 500
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr45/201029_174302/*/*.root"
+SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr55:
+  thr: 55
+  psim: 500
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr55/201029_174342/*/*.root"
+SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr65:
+  thr: 65
+  psim: 500
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr65/201029_174422/*/*.root"
+SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr5:
+  thr: 5
+  psim: 2000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr5/201029_173537/*/*.root"
+SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr15:
+  thr: 15
+  psim: 2000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr15/201029_173617/*/*.root"
+SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr25:
+  thr: 25
+  psim: 2000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr25/201029_173659/*/*.root"
+SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr35:
+  thr: 35
+  psim: 2000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr35/201029_173737/*/*.root"
+SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr45:
+  thr: 45
+  psim: 2000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr45/201029_173817/*/*.root"
+SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr55:
+  thr: 55
+  psim: 2000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr55/201029_173859/*/*.root"
+SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr65:
+  thr: 65
+  psim: 2000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr65/201029_173939/*/*.root"
+SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr5:
+  thr: 5
+  psim: 1000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr5/201029_173105/*/*.root"
+SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr15:
+  thr: 15
+  psim: 1000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr15/201029_173143/*/*.root"
+SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr25:
+  thr: 25
+  psim: 1000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr25/201029_173220/*/*.root"
+SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr35:
+  thr: 35
+  psim: 1000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr35/201029_173259/*/*.root"
+SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr45:
+  thr: 45
+  psim: 1000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr45/201029_173338/*/*.root"
+SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr55:
+  thr: 55
+  psim: 1000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr55/201029_173418/*/*.root"
+SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr65:
+  thr: 65
+  psim: 1000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr65/201029_173456/*/*.root"
+SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr45:
+  thr: 45
+  psim: 3000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr45/201029_172909/*/*.root"
+SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr35:
+  thr: 35
+  psim: 3000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr35/201029_172830/*/*.root"
+SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr55:
+  thr: 55
+  psim: 3000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr55/201029_172949/*/*.root"
+SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr25:
+  thr: 25
+  psim: 3000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr25/201029_172750/*/*.root"
+SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr15:
+  thr: 15
+  psim: 3000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr15/201029_172709/*/*.root"
+SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr65:
+  thr: 65
+  psim: 3000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr65/201029_173028/*/*.root"
+SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr5:
+  thr: 5
+  psim: 3000
+  path: "/storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/ThrScan_FIX/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE_Thr5/201029_172629/*/*.root"

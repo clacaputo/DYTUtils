@@ -42,8 +42,10 @@ process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 
 process.source = cms.Source('PoolSource', fileNames = cms.untracked.vstring())
 
-readFileList(process.source.fileNames, obj.inputFileList,'file:')
-
+if obj.inputFileList.find('txt') > -1 :
+    readFileList(process.source.fileNames, obj.inputFileList,'file:')
+else:
+    process.source.fileNames.extend([ 'file:' + obj.inputFileList ])
 # process.source = cms.Source("PoolSource",
 #			    duplicateCheckMode = cms.untracked.string("noDuplicateCheck"),
 #                            fileNames = cms.untracked.vstring(
@@ -54,6 +56,13 @@ process.demo = cms.EDAnalyzer('DYTNtuplizer',
                               psim = cms.double(obj.psim),
                               useSelections = cms.bool(obj.useSelections)
                               )
-process.TFileService = cms.Service("TFileService", fileName = cms.string('output'+('_'+obj.tag if len(obj.tag)!=0 else '')+'.root'))
+
+#if len(obj.outputFile) == 0:
+#    output_file_name = 'output'+('_'+obj.tag if len(obj.tag)!=0 else '')+'.root'
+#else:
+output_file_name = obj.outputFile
+print("Output file in python: {}".format(output_file_name))
+
+process.TFileService = cms.Service("TFileService", fileName = cms.string(output_file_name))
 
 process.p = cms.Path(process.demo)
