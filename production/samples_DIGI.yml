@@ -1,0 +1,12 @@
+SingleMuonP1000_pythia8:
+  psim: 1000
+  path: /storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/SingleMuonP1000_pythia8/DIGI_CMSSW_11_1_3_phase1_2018_realistic_NoPU/*/*/*.root
+SingleMuonP2000_pythia8:
+  psim: 2000
+  path: /storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/SingleMuonP2000_pythia8/DIGI_CMSSW_11_1_3_phase1_2018_realistic_NoPU/*/*/*.root
+SingleMuonP3000_pythia8:
+  psim: 3000
+  path: /storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/SingleMuonP3000_pythia8/DIGI_CMSSW_11_1_3_phase1_2018_realistic_NoPU/*/*/*.root
+SingleMuonP500_pythia8:
+  psim: 500
+  path: /storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/SingleMuonP500_pythia8/DIGI_CMSSW_11_1_3_phase1_2018_realistic_NoPU/*/*/*.root

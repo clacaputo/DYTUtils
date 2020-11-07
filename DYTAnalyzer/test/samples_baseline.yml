@@ -1,0 +1,32 @@
+SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE:
+  psim: 1000
+  thr: -1
+  path: /storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE/*/*/*.root
+SingleMuonP1000_RECO_RECOSIM_EI_PAT_noAPE:
+  psim: 1000
+  thr: -1
+  path: /storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_noAPE/*/*/*.root
+SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE:
+  psim: 1000
+  thr: -1
+  path: /storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE/*/*/*.root
+SingleMuonP2000_RECO_RECOSIM_EI_PAT_noAPE:
+  psim: 1000
+  thr: -1
+  path: /storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_noAPE/*/*/*.root
+SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE:
+  psim: 1000
+  thr: -1
+  path: /storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_EI_PAT_APE/*/*/*.root
+SingleMuonP3000_RECO_RECOSIM_EI_PAT_noAPE:
+  psim: 1000
+  thr: -1
+  path: /storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_EI_PAT_noAPE/*/*/*.root
+SingleMuonP500_RECO_RECOSIM_EI_PAT_APE:
+  psim: 1000
+  thr: -1
+  path: /storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE/*/*/*.root
+SingleMuonP500_RECO_RECOSIM_EI_PAT_noAPE:
+  psim: 1000
+  thr: -1
+  path: /storage/data/cms/store/user/ccaputo/DyT_ThresholdStudies/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_noAPE/*/*/*.root
