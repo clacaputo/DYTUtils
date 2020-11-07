@@ -22,7 +22,7 @@ with open(yml,'r') as f:
         inpath = options['path']
         psim   = options['psim']
 
-        if psim != 1000: continue
+        # if psim == 1000: continue
 
         sample_name = "{}_thr{}".format(sample,str(thr))
         config = Configuration()
@@ -47,13 +47,13 @@ with open(yml,'r') as f:
         config.environmentType = "cms"
         config.cmsswDir = os.environ.get('CMSSW_BASE')
 
-        config.inputSandboxContent = ['step3_RAW2DIGI_L1Reco_RECO_RECOSIM_EI_PAT.py']
+        config.inputSandboxContent = ['step3_RAW2DIGI_L1Reco_RECO_RECOSIM_EI_PAT_slurm.py']
         config.inputSandboxDir = config.sbatch_chdir + '/slurm_input_sandboxes'
 
         config.batchScriptsDir = config.sbatch_chdir + '/slurm_batch_scripts'
 
         config.stageout = True
-        config.stageoutFiles = ['output_*.root']
+        config.stageoutFiles = ['output*.root']
         # We chose the filename of the outputs to be independent of the job array id number (but dependent on the job array task id number).
         # So let's put the output files in a directory whose name contains the job array id number,
         # so that each job array we may submit will write in a different directory.
@@ -72,9 +72,9 @@ with open(yml,'r') as f:
         #--------------------------------------------------------------------------------
         # 3 Job-specific input parameters and payload
         #--------------------------------------------------------------------------------
-        config.inputParamsNames = ['inputFile', 'outputFile','thr']
+        config.inputParamsNames = ['inputFile', 'outputFile']
 
-        config.stageoutDir = '/nfs/user/ccaputo/DyT/slurm_outputs/ThrScanOptimization_NoAPE/'+folder+'/'+sample_name#'/job_array_${SLURM_ARRAY_JOB_ID}'
+        config.stageoutDir = '/nfs/user/ccaputo/DyT/slurm_outputs/RECO_APE_NewParameters/'+folder#'/job_array_${SLURM_ARRAY_JOB_ID}'
         # Get a list with all the input files.
         inputFiles = glob.glob(inpath)
 
@@ -92,7 +92,7 @@ with open(yml,'r') as f:
             outputFile = 'output_%s' % (index)
             # Once we have defined all the input parameters for the job, we append them
             # in the right order (as defined in 'config.inputParamsNames') to the list of input parameters.
-            config.inputParams.append([inputFile, outputFile, psim])
+            config.inputParams.append([inputFile, outputFile])
 
 
         config.payload = \
