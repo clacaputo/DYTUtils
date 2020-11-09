@@ -1,0 +1,32 @@
+SingleMuonP1000_RECO_APE_NewParameters_Barrel_Endcaps:
+    psim: 1000
+    thr: -1
+    path: /nfs/user/ccaputo/DyT/slurm_outputs/RECO_APE_NewParameters_Barrel_Endcaps/SingleMuonP1000/*.root
+SingleMuonP2000_RECO_APE_NewParameters_Barrel_Endcaps:
+    psim: 2000
+    thr: -1
+    path: /nfs/user/ccaputo/DyT/slurm_outputs/RECO_APE_NewParameters_Barrel_Endcaps/SingleMuonP2000/*.root
+SingleMuonP3000_RECO_APE_NewParameters_Barrel_Endcaps:
+    psim: 3000
+    thr: -1
+    path: /nfs/user/ccaputo/DyT/slurm_outputs/RECO_APE_NewParameters_Barrel_Endcaps/SingleMuonP3000/*.root
+SingleMuonP500_RECO_APE_NewParameters_Barrel_Endcaps:
+    psim: 500
+    thr: -1
+    path: /nfs/user/ccaputo/DyT/slurm_outputs/RECO_APE_NewParameters_Barrel_Endcaps/SingleMuonP500/*.root
+SingleMuonP1000_RECO_APE_NewParameters:
+    psim: 1000
+    thr: -1
+    path: /nfs/user/ccaputo/DyT/slurm_outputs/RECO_APE_NewParameters/SingleMuonP1000/*.root
+SingleMuonP2000_RECO_APE_NewParameters:
+    psim: 2000
+    thr: -1
+    path: /nfs/user/ccaputo/DyT/slurm_outputs/RECO_APE_NewParameters/SingleMuonP2000/*.root
+SingleMuonP3000_RECO_APE_NewParameters:
+    psim: 3000
+    thr: -1
+    path: /nfs/user/ccaputo/DyT/slurm_outputs/RECO_APE_NewParameters/SingleMuonP3000/*.root
+SingleMuonP500_RECO_APE_NewParameters:
+    psim: 500
+    thr: -1
+    path: /nfs/user/ccaputo/DyT/slurm_outputs/RECO_APE_NewParameters/SingleMuonP500/*.root

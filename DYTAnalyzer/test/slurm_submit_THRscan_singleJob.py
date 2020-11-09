@@ -71,7 +71,7 @@ for sample in samples:
     thr     = options["thr"]
 
     print(sample)
-    if psim == 3000: continue
+    #if psim == 2000 or psim==3000: continue
 
     list_of_files = glob.glob("{}".format(path))
     of = open("{}.txt".format(sample),"w")
