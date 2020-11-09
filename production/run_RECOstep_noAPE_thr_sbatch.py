@@ -63,7 +63,7 @@ with open(yml,'r') as f:
         config.stageoutLogs = False
         # The default filename of the slurm logs has already a job array id number and a job array task id number in it.
         # So we can put all logs together (even from different job arrays we may submit) in a unique directory; they won't overwrite each other.
-        config.stageoutLogsDir = config.sbatch_chdir + '/slurm_logs'
+        config.stageoutLogsDir = '/nfs/user/ccaputo/DyT/slurm_outputs/RECO_APE_NewParameters_Barrel_Endcaps/slurm_logs'
 
         config.useJobArray = True
 
@@ -74,7 +74,7 @@ with open(yml,'r') as f:
         #--------------------------------------------------------------------------------
         config.inputParamsNames = ['inputFile', 'outputFile']
 
-        config.stageoutDir = '/nfs/user/ccaputo/DyT/slurm_outputs/RECO_APE_NewParameters/'+folder#'/job_array_${SLURM_ARRAY_JOB_ID}'
+        config.stageoutDir = '/nfs/user/ccaputo/DyT/slurm_outputs/RECO_APE_NewParameters_Barrel_Endcaps/'+folder#'/job_array_${SLURM_ARRAY_JOB_ID}'
         # Get a list with all the input files.
         inputFiles = glob.glob(inpath)
 

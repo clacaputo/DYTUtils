@@ -54,7 +54,7 @@ process.load('Configuration.StandardSequences.EndOfProcess_cff')
 process.load('Configuration.StandardSequences.FrontierConditions_GlobalTag_cff')
 
 process.maxEvents = cms.untracked.PSet(
-    input = cms.untracked.int32(10),
+    input = cms.untracked.int32(-1),
     output = cms.optional.untracked.allowed(cms.int32,cms.PSet)
 )
 
@@ -199,11 +199,11 @@ process.MINIAODSIMoutput = cms.OutputModule("PoolOutputModule",
 from Configuration.AlCa.GlobalTag import GlobalTag
 process.GlobalTag = GlobalTag(process.GlobalTag, 'auto:phase1_2018_realistic', '')
 
-DYTthrsParameters_APE = cms.PSet( eta0p8 = cms.vdouble(1, -0.91038786, 0.98907528),
-                                  eta1p2 = cms.vdouble(1, -0.89248105,  0.98684518),
-                                  eta2p0 = cms.vdouble(4, -0.86643508,  0.98238113),
-                                  eta2p2 = cms.vdouble(1, -0.90890539,  0.98838502),
-                                  eta2p4 = cms.vdouble(1, -0.9201779,  0.98993168),
+DYTthrsParameters_APE = cms.PSet( eta0p8 = cms.vdouble(1, -0.93033993,  0.99180797),
+                                  eta1p2 = cms.vdouble(1, -0.91278591,  0.98967443),
+                                  eta2p0 = cms.vdouble(1, -0.92567274,  0.99069791),
+                                  eta2p2 = cms.vdouble(1, -0.92567274,  0.99069791),
+                                  eta2p4 = cms.vdouble(1, -0.91345792,  0.98900416),
                                     )
 runNewParameters = True
 
