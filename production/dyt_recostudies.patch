@@ -1,0 +1,25 @@
+diff --git a/RecoMuon/Configuration/python/RecoMuon_EventContent_cff.py b/RecoMuon/Configuration/python/RecoMuon_EventContent_cff.py
+index 3cca5a96..c8c12ff 100644
+--- a/RecoMuon/Configuration/python/RecoMuon_EventContent_cff.py
++++ b/RecoMuon/Configuration/python/RecoMuon_EventContent_cff.py
+@@ -72,6 +72,7 @@ RecoMuonRECO = cms.PSet(
+     outputCommands = cms.untracked.vstring('keep *_MuonSeed_*_*',
+                                            'keep *_ancientMuonSeed_*_*',
+                                            'keep *_displacedMuonSeeds_*_*',
++                                           'keep *_tevMuons_dytInfo_*',
+                                            'keep TrackingRecHitsOwned_globalMuons_*_*',
+                                            'keep TrackingRecHitsOwned_tevMuons_*_*',
+                                            # Cosmics
+diff --git a/RecoMuon/GlobalTrackingTools/src/DynamicTruncation.cc b/RecoMuon/GlobalTrackingTools/src/DynamicTruncation.cc
+index 22ddcda..fe70bbf 100644
+--- a/RecoMuon/GlobalTrackingTools/src/DynamicTruncation.cc
++++ b/RecoMuon/GlobalTrackingTools/src/DynamicTruncation.cc
+@@ -521,7 +521,7 @@ void DynamicTruncation::correctThrByPAndEta(double &thr) {
+   std::set<dyt_utils::etaRegion> regionsToExclude = {
+       dyt_utils::etaRegion::eta2p0, dyt_utils::etaRegion::eta2p2, dyt_utils::etaRegion::eta2p4};
+ 
+-  if (!regionsToExclude.count(this->region))
++  //if (!regionsToExclude.count(this->region))
+     thr = parametricThreshold();
+ }
+ 
