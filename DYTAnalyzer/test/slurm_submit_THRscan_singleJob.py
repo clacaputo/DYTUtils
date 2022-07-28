@@ -60,7 +60,7 @@ rm ${file_name}
 """
 f = open(yml)
 
-samples = yaml.load(f, Loader= yaml.FullLoader)
+samples = yaml.load(f)#, Loader= yaml.FullLoader)
 
 for sample in samples:
     outpath = "/nfs/user/ccaputo/DyT/slurm_outputs/{}".format(outputFolder)
