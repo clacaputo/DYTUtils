@@ -33,8 +33,8 @@ payload_template = """#! /bin/sh
 #SBATCH --partition=cp3
 #SBATCH --time=0-08:00
 #SBATCH --mem-per-cpu=4096
-#SBATCH --output=/dev/null
-#SBATCH --error=/dev/null
+#SBATCH --output=%x.%A.%a.out
+#SBATCH --error=%x.%A.%a.err
 
 # Script stop when a line fail
 set -e
