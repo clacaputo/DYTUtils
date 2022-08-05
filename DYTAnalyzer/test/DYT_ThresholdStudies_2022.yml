@@ -1,236 +1,240 @@
 SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr10:
   psim: 1000
   thr: 10
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr10/220722_163616/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr10/220801_163855/000*/*.root"
 SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr12:
   psim: 1000
   thr: 12
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr12/220722_163645/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr12/220801_163923/000*/*.root"
 SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr14:
   psim: 1000
   thr: 14
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr14/220722_163712/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr14/220801_163952/000*/*.root"
 SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr16:
   psim: 1000
   thr: 16
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr16/220722_163741/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr16/220801_164019/000*/*.root"
 SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr18:
   psim: 1000
   thr: 18
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr18/220722_163808/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr18/220801_164048/000*/*.root"
 SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr20:
   psim: 1000
   thr: 20
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr20/220722_163836/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr20/220801_164115/000*/*.root"
 SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr22:
   psim: 1000
   thr: 22
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr22/220722_163904/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr22/220801_164143/000*/*.root"
 SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr24:
   psim: 1000
   thr: 24
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr24/220722_163931/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr24/220801_164211/000*/*.root"
 SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr26:
   psim: 1000
   thr: 26
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr26/220722_164000/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr26/220801_164239/000*/*.root"
 SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr28:
   psim: 1000
   thr: 28
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr28/220722_164028/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP1000_pythia8/crab_SingleMuonP1000_RECO_RECOSIM_EI_PAT_APE_Thr28/220801_164307/000*/*.root"
 SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr10:
   psim: 2000
   thr: 10
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr10/220722_164057/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr10/220801_164334/000*/*.root"
 SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr12:
   psim: 2000
   thr: 12
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr12/220722_164126/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr12/220801_164402/000*/*.root"
 SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr14:
   psim: 2000
   thr: 14
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr14/220722_164154/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr14/220801_164431/000*/*.root"
 SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr16:
   psim: 2000
   thr: 16
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr16/220722_164223/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr16/220801_164500/000*/*.root"
 SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr18:
   psim: 2000
   thr: 18
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr18/220722_164252/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr18/220801_164527/000*/*.root"
 SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr20:
   psim: 2000
   thr: 20
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr20/220722_164321/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr20/220801_164555/000*/*.root"
 SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr22:
   psim: 2000
   thr: 22
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr22/220722_164350/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr22/220801_164623/000*/*.root"
 SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr24:
   psim: 2000
   thr: 24
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr24/220722_164418/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr24/220801_164650/000*/*.root"
 SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr26:
   psim: 2000
   thr: 26
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr26/220722_164446/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr26/220801_164718/000*/*.root"
+SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr28:
+  psim: 2000
+  thr: 28
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP2000_pythia8/crab_SingleMuonP2000_RECO_RECOSIM_EI_PAT_APE_Thr28/220801_164750/000*/*.root"
 SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr10:
   psim: 3000
   thr: 10
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr10/220722_091732/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr10/220801_165759/000*/*.root"
 SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr12:
   psim: 3000
   thr: 12
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr12/220722_091803/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr12/220801_165827/000*/*.root"
 SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr14:
   psim: 3000
   thr: 14
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr14/220722_091832/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr14/220801_165855/000*/*.root"
 SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr16:
   psim: 3000
   thr: 16
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr16/220722_091902/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr16/220801_165923/000*/*.root"
 SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr18:
   psim: 3000
   thr: 18
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr18/220722_091931/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr18/220801_165952/000*/*.root"
 SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr20:
   psim: 3000
   thr: 20
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr20/220722_092001/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr20/220801_170020/000*/*.root"
 SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr22:
   psim: 3000
   thr: 22
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr22/220722_092029/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr22/220801_170047/000*/*.root"
 SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr24:
   psim: 3000
   thr: 24
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr24/220722_092056/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr24/220801_170114/000*/*.root"
 SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr26:
   psim: 3000
   thr: 26
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr26/220722_092127/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr26/220801_170142/000*/*.root"
 SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr28:
   psim: 3000
   thr: 28
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr28/220722_092156/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP3000_pythia8/crab_SingleMuonP3000_RECO_RECOSIM_PAT_APE_Thr28/220801_170209/000*/*.root"
 SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr10:
   psim: 4000
   thr: 10
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr10/220722_164543/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr10/220801_164829/000*/*.root"
 SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr12:
   psim: 4000
   thr: 12
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr12/220722_164615/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr12/220801_164900/000*/*.root"
 SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr14:
   psim: 4000
   thr: 14
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr14/220722_164645/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr14/220801_164929/000*/*.root"
 SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr16:
   psim: 4000
   thr: 16
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr16/220722_164728/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr16/220801_164957/000*/*.root"
 SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr18:
   psim: 4000
   thr: 18
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr18/220722_164806/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr18/220801_165026/000*/*.root"
 SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr20:
   psim: 4000
   thr: 20
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr20/220722_164835/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr20/220801_165057/000*/*.root"
 SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr22:
   psim: 4000
   thr: 22
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr22/220722_164904/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr22/220801_165126/000*/*.root"
 SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr24:
   psim: 4000
   thr: 24
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr24/220722_164932/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr24/220801_165159/000*/*.root"
 SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr26:
   psim: 4000
   thr: 26
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr26/220722_165002/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr26/220801_165226/000*/*.root"
 SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr28:
   psim: 4000
   thr: 28
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr28/220722_165031/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP4000_pythia8/crab_SingleMuonP4000_RECO_RECOSIM_EI_PAT_APE_Thr28/220801_165255/000*/*.root"
 SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr10:
   psim: 5000
   thr: 10
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr10/220722_165101/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr10/220801_165323/000*/*.root"
 SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr12:
   psim: 5000
   thr: 12
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr12/220722_165133/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr12/220801_165351/000*/*.root"
 SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr14:
   psim: 5000
   thr: 14
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr14/220722_165204/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr14/220801_165419/000*/*.root"
 SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr16:
   psim: 5000
   thr: 16
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr16/220722_165235/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr16/220801_165447/000*/*.root"
 SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr18:
   psim: 5000
   thr: 18
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr18/220722_165307/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr18/220801_165514/000*/*.root"
 SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr20:
   psim: 5000
   thr: 20
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr20/220722_165339/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr20/220801_165541/000*/*.root"
 SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr22:
   psim: 5000
   thr: 22
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr22/220722_165412/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr22/220801_165609/000*/*.root"
 SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr24:
   psim: 5000
   thr: 24
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr24/220722_165440/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr24/220801_165637/000*/*.root"
 SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr26:
   psim: 5000
   thr: 26
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr26/220722_165508/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr26/220801_165704/000*/*.root"
 SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr28:
   psim: 5000
   thr: 28
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr28/220722_165536/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP5000_pythia8/crab_SingleMuonP5000_RECO_RECOSIM_EI_PAT_APE_Thr28/220801_165731/000*/*.root"
 SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr10:
   psim: 500
   thr: 10
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr10/220722_163126/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr10/220801_163345/000*/*.root"
 SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr12:
   psim: 500
   thr: 12
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr12/220722_163153/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr12/220801_163416/000*/*.root"
 SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr14:
   psim: 500
   thr: 14
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr14/220722_163221/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr14/220801_163446/000*/*.root"
 SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr16:
   psim: 500
   thr: 16
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr16/220722_163249/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr16/220801_163520/000*/*.root"
 SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr18:
   psim: 500
   thr: 18
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr18/220722_163317/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr18/220801_163556/000*/*.root"
 SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr20:
   psim: 500
   thr: 20
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr20/220722_163345/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr20/220801_163626/000*/*.root"
 SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr22:
   psim: 500
   thr: 22
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr22/220722_163413/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr22/220801_163657/000*/*.root"
 SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr24:
   psim: 500
   thr: 24
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr24/220722_163442/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr24/220801_163727/000*/*.root"
 SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr26:
   psim: 500
   thr: 26
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr26/220722_163512/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr26/220801_163757/000*/*.root"
 SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr28:
   psim: 500
   thr: 28
-  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr28/220722_163547/000*/*.root"
+  path: "/storage/data/cms/store/user/ccaputo/DYT_ThresholdStudies_2022_v2/ThrScan/SingleMuonP500_pythia8/crab_SingleMuonP500_RECO_RECOSIM_EI_PAT_APE_Thr28/220801_163827/000*/*.root"

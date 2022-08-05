@@ -40,11 +40,9 @@
 #include "DataFormats/TrackReco/interface/TrackToTrackMap.h"
 #include "DataFormats/HepMCCandidate/interface/GenParticle.h"
 #include "DataFormats/TrackReco/interface/TrackFwd.h"
-#include "DataFormats/RecoCandidate/interface/TrackAssociation.h"
 #include "DataFormats/TrackingRecHit/interface/TrackingRecHit.h"
 #include "DataFormats/TrackingRecHit/interface/TrackingRecHitFwd.h"
 #include "DataFormats/TrackingRecHit/interface/TrackingRecHit.h"
-#include "SimMuon/MCTruth/interface/MuonToSimAssociatorBase.h"
 #include "SimMuon/MCTruth/interface/MuonAssociatorByHits.h"
 #include "SimTracker/Records/interface/TrackAssociatorRecord.h"
 #include "SimTracker/TrackAssociation/plugins/ParametersDefinerForTPESProducer.h"
@@ -4662,4 +4660,4 @@ LocalPoint DYTthrScanTuner::meanPoint(LocalPoint InfPoint, LocalPoint SupPoint){
 	return meanPoint;
 }
 
-DEFINE_FWK_MODULE(DYTthrScanTuner);
+//DEFINE_FWK_MODULE(DYTthrScanTuner);
